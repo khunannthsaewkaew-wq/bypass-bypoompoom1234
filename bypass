@@ -1,0 +1,3 @@
+@echo off
+title UAC Bypass Tool
+cmd /min /C "set __COMPAT_LAYER=RunAsInvoker && start "" "%1""
